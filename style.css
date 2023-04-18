@@ -1,0 +1,81 @@
+.container-fluid{
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.carousel-control-prev, .carousel-control-next{
+    width: 50px;
+    height: 50px;
+    background-color: orangered;
+    top: 50%;
+    opacity: 1;
+}
+.carousel-control-prev{
+    left: -2%;
+}
+.carousel-control-next{
+    right: -2%;
+}
+.carousel-indicators{
+    position: static;
+    background-color: #e2e2e2;
+    width: 100%;
+    text-align: center;
+    margin-left: 0%;
+}
+#carousel-indicators button{
+    background-color: orangered;
+}
+#indikatorpage{
+    width: 100%;
+    background-color: #e2e2e2;
+    color: orangered;
+    padding-left: 9%;
+    /* margin-bottom: 2%; */
+}
+.segitiga3{
+    width:1%;
+    border-top:solid 14px #e2e2e2;
+    border-left:solid 10px transparent;
+    border-right:solid 10px transparent;
+    margin-left: 8%;
+    margin-bottom: 1%;
+}
+#kontencard{
+    background-color: #e2e2e2;
+    width: 100%;
+    padding: 4%;
+    margin-top: 2%;
+    margin-bottom: 3%;
+    padding-left: 9%;
+    padding-right: 9%;
+}
+#kontencard .card{
+    background-color: #f3f3f3;
+    /* width: 90%; */
+    padding: 5%;
+    position: relative;
+    align-items: center;
+    padding-bottom: 10%;
+}
+#kontencard .card img{
+    width: 50%;
+    height: 50%;
+}
+#kontencard button{
+    position: absolute;
+    margin-top: 110%;
+    
+}
+.card-body h4{
+    color: rgb(0, 140, 255);
+}
+#nomer{
+    text-align: right;
+}
+#futer{
+    background: #e2e2e2;
+    /* border: 1px solid #e2e2e2; */
+    padding-left: 9%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
